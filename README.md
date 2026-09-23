@@ -40,3 +40,9 @@ The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along w
 - Dataset structure inspected
 - Missing values checked
 - Class distribution analyzed
+
+### Stage 2 — Exploratory Data Analysis
+- Duplicate transactions analyzed
+- Duplicate frequency investigated
+- Legitimate and fraudulent duplicate transactions analyzed
+- Transaction amount distribution explored
