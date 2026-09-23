@@ -18,3 +18,17 @@ This project investigates whether Generative Adversarial Networks (GANs) can lea
 - Measure the impact of synthetic fraud data on fraud detection
 - Compare baseline and GAN-augmented fraud detection models
 - Experiment with WGAN-GP for improved generative modeling
+
+## 📊 Dataset
+
+**Dataset:** Credit Card Fraud Detection
+
+The dataset contains:
+
+- 284,807 original transactions
+- 284,315 legitimate transactions
+- 492 fraudulent transactions
+- 30 input features
+- 1 target variable (`Class`)
+
+The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along with `Time` and `Amount`.
