@@ -32,3 +32,11 @@ The dataset contains:
 - 1 target variable (`Class`)
 
 The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along with `Time` and `Amount`.
+
+## 🔬 Current Progress
+
+### Stage 1 — Dataset Collection & Setup
+- Dataset downloaded and loaded
+- Dataset structure inspected
+- Missing values checked
+- Class distribution analyzed
