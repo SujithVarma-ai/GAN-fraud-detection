@@ -52,3 +52,9 @@ The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along w
 - Invalid values checked
 - Exact duplicate rows removed
 - 1,081 extra duplicate copies removed
+
+Cleaned dataset:
+
+- 283,726 total transactions
+- 283,253 legitimate
+- 473 fraudulent
