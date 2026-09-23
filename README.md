@@ -58,3 +58,10 @@ Cleaned dataset:
 - 283,726 total transactions
 - 283,253 legitimate
 - 473 fraudulent
+
+### Stage 4 — Data Preprocessing
+- Features and target separated
+- 80/20 stratified train-test split performed
+- Training features scaled using `StandardScaler`
+- 378 fraudulent training transactions extracted
+- Fraud data prepared using PyTorch `DataLoader`
