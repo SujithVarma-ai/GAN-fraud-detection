@@ -46,3 +46,9 @@ The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along w
 - Duplicate frequency investigated
 - Legitimate and fraudulent duplicate transactions analyzed
 - Transaction amount distribution explored
+
+### Stage 3 — Data Cleaning
+- Missing values verified
+- Invalid values checked
+- Exact duplicate rows removed
+- 1,081 extra duplicate copies removed
