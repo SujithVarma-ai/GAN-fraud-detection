@@ -92,3 +92,14 @@ The test set will only be used for final evaluation.
 - WGAN-GP implementation
 - Baseline vs GAN comparison
 - Final evaluation on unseen real transactions
+
+## 🛠️ Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- PyTorch
+- Matplotlib
+- Google Colab
+- Git & GitHub
