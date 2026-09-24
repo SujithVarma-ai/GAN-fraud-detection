@@ -132,6 +132,17 @@ In the original dataset, only 492 out of 284,807 transactions are fraudulent.
 
 This project explores whether synthetic fraud generation using GANs can provide additional minority-class data and improve downstream fraud detection without compromising evaluation integrity.
 
+
+### 3. Add the dataset source
+
+```markdown
+## 📚 Dataset Source
+```
+
+The project uses the **Credit Card Fraud Detection** dataset originally provided by the Machine Learning Group of ULB and distributed through Kaggle.
+
+The dataset is used for research and educational purposes. Refer to the original dataset source for its licensing and usage terms.
+
 ## 🛠️ Technologies
 
 - Python
