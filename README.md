@@ -65,3 +65,19 @@ Cleaned dataset:
 - Training features scaled using `StandardScaler`
 - 378 fraudulent training transactions extracted
 - Fraud data prepared using PyTorch `DataLoader`
+
+### 🔒 Data Leakage Prevention
+
+The test set is kept completely separate from GAN training and preprocessing.
+
+Training:
+- 226,980 transactions
+- 226,602 legitimate
+- 378 fraudulent
+
+Testing:
+- 56,746 transactions
+- 56,651 legitimate
+- 95 fraudulent
+
+The test set will only be used for final evaluation.
