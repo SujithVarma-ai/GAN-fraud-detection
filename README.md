@@ -17,7 +17,7 @@ This project investigates whether Generative Adversarial Networks (GANs) can lea
 - Evaluate the quality and diversity of generated data
 - Measure the impact of synthetic fraud data on fraud detection
 - Compare baseline and GAN-augmented fraud detection models
-- Experiment with WGAN-GP for improved generative modeling
+- Experiment with WGAN-GP and compare its performance with the vanilla GAN
 
 ## 📊 Dataset
 
