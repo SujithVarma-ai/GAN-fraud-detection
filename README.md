@@ -93,6 +93,37 @@ The test set will only be used for final evaluation.
 - Baseline vs GAN comparison
 - Final evaluation on unseen real transactions
 
+## 🔄 Project Workflow
+
+```text
+Credit Card Transactions
+          ↓
+   Exploratory Analysis
+          ↓
+      Data Cleaning
+          ↓
+   Train/Test Split
+          ↓
+     Feature Scaling
+          ↓
+   378 Real Fraud Samples
+          ↓
+      Vanilla GAN
+          ↓
+ Synthetic Fraud Generation
+          ↓
+   Synthetic Data Evaluation
+          ↓
+    Fraud Classifier
+          ↓
+   Final Evaluation on
+   Unseen Real Test Data
+          ↓
+       WGAN-GP
+          ↓
+   Model Comparison
+```
+
 ## 💡 Why This Project?
 
 Fraudulent transactions are extremely rare compared with legitimate transactions, making fraud detection a severe class-imbalance problem.
