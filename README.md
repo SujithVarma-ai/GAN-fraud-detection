@@ -93,6 +93,14 @@ The test set will only be used for final evaluation.
 - Baseline vs GAN comparison
 - Final evaluation on unseen real transactions
 
+## 💡 Why This Project?
+
+Fraudulent transactions are extremely rare compared with legitimate transactions, making fraud detection a severe class-imbalance problem.
+
+In the original dataset, only 492 out of 284,807 transactions are fraudulent.
+
+This project explores whether synthetic fraud generation using GANs can provide additional minority-class data and improve downstream fraud detection without compromising evaluation integrity.
+
 ## 🛠️ Technologies
 
 - Python
