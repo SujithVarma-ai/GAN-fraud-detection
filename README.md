@@ -81,3 +81,14 @@ Testing:
 - 95 fraudulent
 
 The test set will only be used for final evaluation.
+
+## 🚧 Upcoming Work
+
+- Baseline fraud detection model
+- Vanilla GAN implementation
+- Synthetic fraud generation
+- Synthetic data quality evaluation
+- GAN-based data augmentation
+- WGAN-GP implementation
+- Baseline vs GAN comparison
+- Final evaluation on unseen real transactions
