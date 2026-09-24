@@ -162,6 +162,12 @@ In progress:
 - [ ] WGAN-GP
 - [ ] Final comparison
 
+## ⚠️ Dataset Limitations
+
+The dataset contains anonymized PCA-transformed features and represents transactions collected over a limited historical period.
+
+Therefore, results from this project should be interpreted as experimental findings on the benchmark dataset and should not be assumed to directly represent performance on modern real-world banking transactions.
+
 ## 🛠️ Technologies
 
 - Python
