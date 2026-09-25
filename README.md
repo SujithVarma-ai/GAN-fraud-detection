@@ -105,6 +105,15 @@ Cleaned dataset:
 - Accuracy, Precision, Recall, F1-Score, and ROC-AUC calculated
 - Classification report generated
 - Confusion matrix visualized
+
+### Stage 6 — Vanilla GAN
+- Generator network implemented using PyTorch
+- Discriminator network implemented using PyTorch
+- Binary Cross-Entropy loss and Adam optimizers configured
+- Vanilla GAN trained using 378 real fraudulent training transactions
+- Generator and Discriminator training losses recorded
+- GAN training loss curves visualized
+- 1,000 synthetic fraudulent transactions generated
   
 ### 🔒 Data Leakage Prevention
 
