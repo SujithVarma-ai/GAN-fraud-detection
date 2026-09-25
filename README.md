@@ -123,6 +123,21 @@ Cleaned dataset:
 - Exact-match check performed to detect memorization
 - Synthetic transaction validity checked
 - Negative Amount values in generated transactions investigated
+
+### Stage 8 — WGAN-GP
+
+WGAN-GP was implemented as an alternative generative approach.
+
+The experiment included:
+
+WGAN generator
+Critic network
+Wasserstein loss formulation
+Gradient penalty
+Adam optimization
+Synthetic fraud generation
+
+**1,000 synthetic fraud transactions** were generated for comparison.
   
 ### 🔒 Data Leakage Prevention
 
