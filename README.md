@@ -138,6 +138,25 @@ Adam optimization
 Synthetic fraud generation
 
 **1,000 synthetic fraud transactions** were generated for comparison.
+
+### Stage 9 — Vanilla GAN vs WGAN-GP
+
+The two generative models were compared based on synthetic-data characteristics.
+
+Observed results:
+
+| Model       | Synthetic Samples | Negative `Amount` | Exact Matches |
+| ----------- | ----------------: | ----------------: | ------------: |
+| Vanilla GAN |             1,000 |             **0** |             0 |
+| WGAN-GP     |             1,000 |           **371** |             0 |
+
+#### Observation
+
+In this experiment, Vanilla GAN generated no negative Amount values, whereas WGAN-GP generated 371 samples with negative Amount values.
+
+Both models produced zero exact matches against the real fraud training samples.
+
+These results are specific to the current dataset, architecture, preprocessing, and training configuration and do not establish that one GAN architecture is universally superior.
   
 ### 🔒 Data Leakage Prevention
 
