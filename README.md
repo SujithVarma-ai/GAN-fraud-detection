@@ -33,7 +33,7 @@ The dataset contains:
 
 The dataset contains anonymized PCA-transformed features (`V1`–`V28`), along with `Time` and `Amount`.
 
-## 🔬 Current Progress
+## 🔬 Stages
 
 ### Stage 1 — Dataset Collection & Setup
 - Dataset downloaded and loaded
@@ -152,6 +152,16 @@ F1-Score
 ROC-AUC
 
 This experiment measures whether synthetic fraud data provides useful downstream augmentation.
+
+## 📊 Final Results
+
+The final comparison evaluates:
+
+**Synthetic Data** - **Vanilla GAN vs WGAN-GP**
+
+**Fraud Detection** - **Baseline Logistic Regression vs Vanilla GAN-Augmented Logistic Regression**
+
+Final numerical classifier results are reported based on the experimental results obtained during the project.
   
 ### 🔒 Data Leakage Prevention
 
@@ -168,17 +178,6 @@ Testing:
 - 95 fraudulent
 
 The test set will only be used for final evaluation.
-
-## 🚧 Upcoming Work
-
-- Baseline fraud detection model
-- Vanilla GAN implementation
-- Synthetic fraud generation
-- Synthetic data quality evaluation
-- GAN-based data augmentation
-- WGAN-GP implementation
-- Baseline vs GAN comparison
-- Final evaluation on unseen real transactions
 
 ## 🔄 Project Workflow
 
@@ -230,30 +229,16 @@ The project uses the **Credit Card Fraud Detection** dataset originally provided
 
 The dataset is used for research and educational purposes. Refer to the original dataset source for its licensing and usage terms.
 
-## 📌 Project Status
+## ⚠️ Limitations
 
-🚧 **In Development**
-
-Completed:
-- [x] Dataset collection
-- [x] Exploratory data analysis
-- [x] Data cleaning
-- [x] Train/test split
-- [x] Feature scaling
-- [x] Fraud data preparation
-
-In progress:
-- [ ] Baseline fraud detection
-- [ ] Vanilla GAN
-- [ ] Synthetic data evaluation
-- [ ] WGAN-GP
-- [ ] Final comparison
-
-## ⚠️ Dataset Limitations
-
-The dataset contains anonymized PCA-transformed features and represents transactions collected over a limited historical period.
-
-Therefore, results from this project should be interpreted as experimental findings on the benchmark dataset and should not be assumed to directly represent performance on modern real-world banking transactions.
+- The dataset contains only a small number of fraudulent transactions.
+- V1–V28 are anonymized PCA-transformed features and are not directly interpretable.
+- The GANs were trained using fraud-only samples.
+- The current WGAN-GP implementation generated invalid negative Amount values in some samples.
+- Exact-match checking does not completely rule out approximate memorization.
+- Only Logistic Regression was used for the downstream classifier.
+- The dataset represents a historical benchmark rather than current real-world banking activity.
+- Results should therefore be interpreted as experimental findings on this benchmark dataset.
 
 ## 🛠️ Technologies
 
