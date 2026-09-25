@@ -66,6 +66,46 @@ Cleaned dataset:
 - 378 fraudulent training transactions extracted
 - Fraud data prepared using PyTorch `DataLoader`
 
+### Stage 1 — Dataset Collection & Setup
+- Dataset downloaded and loaded
+- Dataset structure inspected
+- Missing values checked
+- Class distribution analyzed
+
+### Stage 2 — Exploratory Data Analysis
+- Duplicate transactions analyzed
+- Duplicate frequency investigated
+- Legitimate and fraudulent duplicate transactions analyzed
+- Transaction amount distribution explored
+
+### Stage 3 — Data Cleaning
+- Missing values verified
+- Invalid values checked
+- Exact duplicate rows removed
+- 1,081 extra duplicate copies removed
+
+Cleaned dataset:
+
+- 283,726 total transactions
+- 283,253 legitimate
+- 473 fraudulent
+
+### Stage 4 — Data Preprocessing
+- Features and target separated
+- 80/20 stratified train-test split performed
+- Training features scaled using `StandardScaler`
+- 378 fraudulent training transactions extracted
+- Fraud data prepared using PyTorch `DataLoader`
+
+### Stage 5 — Baseline Fraud Detection
+- Baseline Logistic Regression classifier implemented
+- Class imbalance handled using class_weight="balanced"
+- Baseline predictions generated on the unseen test set
+- Confusion matrix generated
+- Accuracy, Precision, Recall, F1-Score, and ROC-AUC calculated
+- Classification report generated
+- Confusion matrix visualized
+  
 ### 🔒 Data Leakage Prevention
 
 The test set is kept completely separate from GAN training and preprocessing.
