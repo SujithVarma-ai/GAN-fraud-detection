@@ -114,6 +114,15 @@ Cleaned dataset:
 - Generator and Discriminator training losses recorded
 - GAN training loss curves visualized
 - 1,000 synthetic fraudulent transactions generated
+
+### Stage 7 — Synthetic Data Evaluation
+- Synthetic fraud data converted to DataFrame
+- Generated data converted back to original feature scale
+- Real vs synthetic fraud statistics compared
+- Real and synthetic feature distributions visualized
+- Exact-match check performed to detect memorization
+- Synthetic transaction validity checked
+- Negative Amount values in generated transactions investigated
   
 ### 🔒 Data Leakage Prevention
 
